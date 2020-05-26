@@ -1,2 +1,2 @@
 # Miini hwkit
- Hardware schematics for the nwm console
+ Hardware schematics and PCB drawings for NWM console add-ons

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/panoskoutsoumanis/Documents/HDTVii/HDTVii.sch</source>
+    <date>2020 May 26, Tuesday 16:39:44</date>
+    <tool>Eeschema (5.1.5-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HDTVii.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="V1">
+      <value>Varistor</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Varistor" description="Voltage dependent resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECCFB08</tstamp>
+    </comp>
+    <comp ref="FIL15">
+      <value>280mH</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECD2083</tstamp>
+    </comp>
+    <comp ref="C66">
+      <value>50pF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECD6281</tstamp>
+    </comp>
+    <comp ref="C72">
+      <value>100pF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECDAFCC</tstamp>
+    </comp>
+    <comp ref="V2">
+      <value>Varistor</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Varistor" description="Voltage dependent resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECE3EF5</tstamp>
+    </comp>
+    <comp ref="C74">
+      <value>50pF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECE76BF</tstamp>
+    </comp>
+    <comp ref="C78">
+      <value>100pF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECE7B2C</tstamp>
+    </comp>
+    <comp ref="FIL16">
+      <value>280mH</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECE6C63</tstamp>
+    </comp>
+    <comp ref="V3">
+      <value>Varistor</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Varistor" description="Voltage dependent resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECF6BAF</tstamp>
+    </comp>
+    <comp ref="C83">
+      <value>50pF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECF6BB9</tstamp>
+    </comp>
+    <comp ref="C85">
+      <value>100pF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECF6BC3</tstamp>
+    </comp>
+    <comp ref="FIL17">
+      <value>280mH</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECF6BD2</tstamp>
+    </comp>
+    <comp ref="W1">
+      <value>Wire_Arc</value>
+      <libsource lib="My Library" part="Wire_Arc" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED04FFC</tstamp>
+    </comp>
+    <comp ref="W2">
+      <value>Wire_Arc</value>
+      <libsource lib="My Library" part="Wire_Arc" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED06E6C</tstamp>
+    </comp>
+    <comp ref="W4">
+      <value>Wire_Arc</value>
+      <libsource lib="My Library" part="Wire_Arc" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED07788</tstamp>
+    </comp>
+    <comp ref="W3">
+      <value>Wire_Arc</value>
+      <libsource lib="My Library" part="Wire_Arc" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED0ED6A</tstamp>
+    </comp>
+    <comp ref="W5">
+      <value>Wire_Arc</value>
+      <libsource lib="My Library" part="Wire_Arc" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED0F55A</tstamp>
+    </comp>
+    <comp ref="W6">
+      <value>Wire_Arc</value>
+      <libsource lib="My Library" part="Wire_Arc" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED0FC53</tstamp>
+    </comp>
+    <comp ref="C64">
+      <value>220mF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="max. Voltage">6V</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED1E557</tstamp>
+    </comp>
+    <comp ref="C84">
+      <value>220mF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="max. Voltage">6V</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED1F3C6</tstamp>
+    </comp>
+    <comp ref="C69">
+      <value>220mF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="max. Voltage">6V</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED1DC64</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>75Ω</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED7ACAB</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>75Ω</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED7DC27</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>75Ω</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED7EE45</tstamp>
+    </comp>
+    <comp ref="W7">
+      <value>Wire_Arc</value>
+      <libsource lib="My Library" part="Wire_Arc" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED821A1</tstamp>
+    </comp>
+    <comp ref="W9">
+      <value>Wire_Arc</value>
+      <libsource lib="My Library" part="Wire_Arc" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED829E4</tstamp>
+    </comp>
+    <comp ref="W8">
+      <value>Wire_Arc</value>
+      <libsource lib="My Library" part="Wire_Arc" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED83C34</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Varistor">
+      <description>Voltage dependent resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RV_*</fp>
+        <fp>Varistor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">Varistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="My Library" part="Wire_Arc">
+      <fields>
+        <field name="Reference">W</field>
+        <field name="Value">Wire_Arc</field>
+      </fields>
+      <pins>
+        <pin num="~" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="INDUCTOR">
+      <description>Inductor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/Users/panoskoutsoumanis/Downloads/kicad-symbols-master/Device.lib</uri>
+    </library>
+    <library logical="My Library">
+      <uri>/Users/panoskoutsoumanis/Documents/Electronics_CompSci/My Library.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>/Users/panoskoutsoumanis/Downloads/kicad-symbols-master/pspice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(V1-Pad1)">
+      <node ref="V1" pin="1"/>
+    </net>
+    <net code="3" name="/PrOut">
+      <node ref="V1" pin="2"/>
+      <node ref="C66" pin="2"/>
+      <node ref="FIL15" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C72-Pad1)">
+      <node ref="C72" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C66-Pad1)">
+      <node ref="FIL15" pin="2"/>
+      <node ref="C66" pin="1"/>
+      <node ref="C72" pin="2"/>
+      <node ref="W6" pin="~"/>
+    </net>
+    <net code="6" name="Net-(V2-Pad1)">
+      <node ref="V2" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C74-Pad1)">
+      <node ref="C74" pin="1"/>
+      <node ref="FIL16" pin="2"/>
+      <node ref="W3" pin="~"/>
+      <node ref="C78" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C78-Pad1)">
+      <node ref="C78" pin="1"/>
+    </net>
+    <net code="9" name="/PbOut">
+      <node ref="V2" pin="2"/>
+      <node ref="FIL16" pin="1"/>
+      <node ref="C74" pin="2"/>
+    </net>
+    <net code="11" name="Net-(V3-Pad1)">
+      <node ref="V3" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C83-Pad1)">
+      <node ref="W1" pin="~"/>
+      <node ref="C83" pin="1"/>
+      <node ref="FIL17" pin="2"/>
+      <node ref="C85" pin="2"/>
+    </net>
+    <net code="13" name="Net-(C85-Pad1)">
+      <node ref="C85" pin="1"/>
+    </net>
+    <net code="14" name="/YOut">
+      <node ref="V3" pin="2"/>
+      <node ref="C83" pin="2"/>
+      <node ref="FIL17" pin="1"/>
+    </net>
+    <net code="15" name="Net-(W1-Pad~)">
+      <node ref="W1" pin="~"/>
+      <node ref="W2" pin="~"/>
+    </net>
+    <net code="16" name="Net-(W2-Pad~)">
+      <node ref="W4" pin="~"/>
+      <node ref="W2" pin="~"/>
+    </net>
+    <net code="17" name="Net-(C84-Pad2)">
+      <node ref="C84" pin="2"/>
+      <node ref="W4" pin="~"/>
+    </net>
+    <net code="18" name="Net-(W3-Pad~)">
+      <node ref="W3" pin="~"/>
+      <node ref="W5" pin="~"/>
+    </net>
+    <net code="19" name="Net-(C64-Pad2)">
+      <node ref="W5" pin="~"/>
+      <node ref="C64" pin="2"/>
+    </net>
+    <net code="20" name="Net-(C69-Pad2)">
+      <node ref="C69" pin="2"/>
+      <node ref="W6" pin="~"/>
+    </net>
+    <net code="21" name="/AVE57">
+      <node ref="R39" pin="1"/>
+      <node ref="C64" pin="1"/>
+    </net>
+    <net code="22" name="/AVE54">
+      <node ref="C84" pin="1"/>
+      <node ref="R40" pin="1"/>
+    </net>
+    <net code="23" name="Net-(R37-Pad1)">
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="24" name="/AVE59">
+      <node ref="R37" pin="2"/>
+      <node ref="C69" pin="1"/>
+    </net>
+    <net code="25" name="Net-(R39-Pad2)">
+      <node ref="R39" pin="2"/>
+      <node ref="W7" pin="~"/>
+    </net>
+    <net code="26" name="Net-(R40-Pad2)">
+      <node ref="R40" pin="2"/>
+      <node ref="W9" pin="~"/>
+    </net>
+    <net code="27" name="Net-(W7-Pad~)">
+      <node ref="W7" pin="~"/>
+    </net>
+    <net code="28" name="Net-(W8-Pad~)">
+      <node ref="W8" pin="~"/>
+    </net>
+    <net code="29" name="Net-(W8-Pad~)">
+      <node ref="W9" pin="~"/>
+      <node ref="W8" pin="~"/>
+    </net>
+  </nets>
+</export>
