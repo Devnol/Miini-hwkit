@@ -144,7 +144,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5EFB79D1) (tstamp 5EFBD3A5)
-    (at 116.84 90.17 180)
+    (at 111.76 87.63 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5ECCFB08)
@@ -357,7 +357,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5EFB7864) (tstamp 5EFBC519)
-    (at 101.6 82.55 180)
+    (at 96.52 80.01 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5ECF6BC3)
@@ -393,7 +393,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5EFB786C) (tstamp 5EFBC508)
-    (at 102.87 86.36 270)
+    (at 97.79 83.82 270)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5ECF6BB9)
@@ -429,7 +429,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5EFB79AD) (tstamp 5EFBC4F7)
-    (at 109.22 82.55 180)
+    (at 104.14 80.01 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5ECE7B2C)
@@ -465,7 +465,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5EFB7944) (tstamp 5EFBC4E6)
-    (at 110.49 86.36 270)
+    (at 105.41 83.82 270)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5ECE76BF)
@@ -501,7 +501,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5EFB79F4) (tstamp 5EFBC4D5)
-    (at 116.84 82.55 180)
+    (at 111.76 80.01 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5ECDAFCC)
@@ -537,7 +537,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5EFB7A58) (tstamp 5EFBC4C4)
-    (at 118.11 86.36 270)
+    (at 113.03 83.82 270)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5ECD6281)
@@ -573,7 +573,7 @@
   )
 
   (module Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5EFB786E) (tstamp 5EFBC4B3)
-    (at 100.33 86.36 90)
+    (at 95.25 83.82 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "inductor handsolder")
     (path /5ED8BF7A)
@@ -609,7 +609,7 @@
   )
 
   (module Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5EFB7976) (tstamp 5EFBC4A2)
-    (at 107.95 86.36 90)
+    (at 102.87 83.82 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "inductor handsolder")
     (path /5ED92757)
@@ -645,7 +645,7 @@
   )
 
   (module Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5EFB7A19) (tstamp 5EFBC491)
-    (at 115.57 86.36 90)
+    (at 110.49 83.82 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "inductor handsolder")
     (path /5ED97240)
@@ -681,7 +681,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5EFB78CC) (tstamp 5EFBC480)
-    (at 101.6 90.17 180)
+    (at 96.52 87.63 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5ECF6BAF)
@@ -717,7 +717,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5EFBC46F)
-    (at 162.56 95.25)
+    (at 171.45 95.25)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5ED7ACAB)
@@ -789,7 +789,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5EFBC44D)
-    (at 162.56 90.17)
+    (at 162.56 91.44)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5ED7EE45)
@@ -825,7 +825,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5EFB79D3) (tstamp 5EFBC43C)
-    (at 109.22 90.17 180)
+    (at 104.14 87.63 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5ECE3EF5)
