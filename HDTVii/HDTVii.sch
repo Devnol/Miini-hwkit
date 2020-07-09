@@ -27,18 +27,14 @@ $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5ECCEA0B
-P 6100 5250
-F 0 "#PWR0101" H 6100 5000 50  0001 C CNN
-F 1 "GND" H 6105 5077 50  0000 C CNN
-F 2 "" H 6100 5250 50  0001 C CNN
-F 3 "" H 6100 5250 50  0001 C CNN
-	1    6100 5250
-	1    0    0    -1  
+P 6000 4950
+F 0 "#PWR0101" H 6000 4700 50  0001 C CNN
+F 1 "GND" H 6000 4800 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 6000 4950 50  0001 C CNN
+F 3 "" H 6000 4950 50  0001 C CNN
+	1    6000 4950
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5800 4350 6000 4350
-Entry Wire Line
-	6000 4350 6100 4450
 $Comp
 L Device:C C66
 U 1 1 5ECD6281
@@ -65,8 +61,6 @@ F 3 "~" H 5500 3300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5650 3300 6000 3300
-Entry Wire Line
-	6000 3300 6100 3400
 Wire Wire Line
 	5350 3300 5350 3650
 Connection ~ 5350 3650
@@ -112,17 +106,10 @@ Wire Wire Line
 	4800 3950 4500 3950
 Wire Wire Line
 	5700 3950 5350 3950
-Connection ~ 5150 2750
-Wire Bus Line
-	5150 2750 6100 2750
 Wire Wire Line
 	4900 4350 5050 4350
 Wire Wire Line
 	4800 3300 5050 3300
-Entry Wire Line
-	5050 3300 5150 3400
-Entry Wire Line
-	5050 4350 5150 4450
 $Comp
 L Device:Varistor V3
 U 1 1 5ECF6BAF
@@ -164,31 +151,13 @@ Connection ~ 3650 3650
 Wire Wire Line
 	3950 3950 3650 3950
 Wire Wire Line
-	4050 4350 4200 4350
-Wire Wire Line
-	3950 3300 4200 3300
-Entry Wire Line
-	4200 3300 4300 3400
-Entry Wire Line
-	4200 4350 4300 4450
-Wire Bus Line
-	4300 2750 5150 2750
-Wire Wire Line
 	3650 3300 3650 2850
 Connection ~ 3650 3300
 Wire Wire Line
-	3650 2850 4150 2850
-Wire Wire Line
 	4500 3300 4500 3000
-Wire Wire Line
-	4500 3000 5000 3000
 Connection ~ 4500 3300
 Wire Wire Line
-	5300 3000 5950 3000
-Wire Wire Line
 	5350 3300 5350 3150
-Wire Wire Line
-	5350 3150 5950 3150
 Connection ~ 5350 3300
 $Comp
 L Device:CP C64
@@ -196,7 +165,7 @@ U 1 1 5ED1E557
 P 7300 3650
 F 0 "C64" H 7182 3559 50  0000 R CNN
 F 1 "220μF" H 7182 3650 50  0000 R CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x3" H 7338 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 7338 3500 50  0001 C CNN
 F 3 "~" H 7300 3650 50  0001 C CNN
 F 4 "6V" H 7050 3750 50  0000 R CNN "max. Voltage"
 	1    7300 3650
@@ -208,20 +177,14 @@ U 1 1 5ED1F3C6
 P 7950 3650
 F 0 "C84" H 7832 3559 50  0000 R CNN
 F 1 "220μF" H 7832 3650 50  0000 R CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x3" H 7988 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 7988 3500 50  0001 C CNN
 F 3 "~" H 7950 3650 50  0001 C CNN
 F 4 "6V" H 7700 3750 50  0000 R CNN "max. Voltage"
 	1    7950 3650
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6250 3150 6650 3150
-Wire Wire Line
-	6250 3000 7300 3000
-Wire Wire Line
 	7300 3000 7300 3500
-Wire Wire Line
-	6250 2850 7950 2850
 Wire Wire Line
 	7950 2850 7950 3500
 Wire Wire Line
@@ -238,7 +201,7 @@ U 1 1 5ED1DC64
 P 6650 3650
 F 0 "C69" H 6532 3559 50  0000 R CNN
 F 1 "220μF" H 6532 3650 50  0000 R CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x3" H 6688 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 6688 3500 50  0001 C CNN
 F 3 "~" H 6650 3650 50  0001 C CNN
 F 4 "6V" H 6400 3750 50  0000 R CNN "max. Voltage"
 	1    6650 3650
@@ -310,42 +273,13 @@ F 3 "~" H 7700 4450 50  0001 C CNN
 	1    7700 4450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6250 4150 6200 4150
-Wire Wire Line
-	6850 4300 6800 4300
-Wire Wire Line
-	7550 4450 7450 4450
-$Comp
-L HDTVii-rescue:Wire_Arc-My_Library W9
-U 1 1 5ED829E4
-P 7300 4450
-F 0 "W9" H 7250 4400 50  0001 C CNN
-F 1 "Wire_Arc" H 7300 4550 50  0001 C CNN
-F 2 "" H 7300 4550 50  0001 C CNN
-F 3 "" H 7300 4550 50  0001 C CNN
-	1    7300 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7150 4450 6800 4450
-Wire Wire Line
-	6500 4450 6200 4450
-Entry Wire Line
-	6200 4150 6100 4250
-Entry Wire Line
-	6200 4300 6100 4400
-Entry Wire Line
-	6200 4450 6100 4550
-Wire Wire Line
-	6200 4300 6500 4300
 $Comp
 L Device:L FIL17
 U 1 1 5ED8BF7A
 P 3650 3800
 F 0 "FIL17" V 3750 3900 50  0000 R CNN
 F 1 "390nH" V 3600 3900 50  0000 R CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3650 3800 50  0001 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 3650 3800 50  0001 C CNN
 F 3 "~" H 3650 3800 50  0001 C CNN
 	1    3650 3800
 	-1   0    0    1   
@@ -356,7 +290,7 @@ U 1 1 5ED92757
 P 4500 3800
 F 0 "FIL16" V 4600 3900 50  0000 R CNN
 F 1 "390nH" V 4450 3900 50  0000 R CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4500 3800 50  0001 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 4500 3800 50  0001 C CNN
 F 3 "~" H 4500 3800 50  0001 C CNN
 	1    4500 3800
 	-1   0    0    1   
@@ -368,7 +302,7 @@ U 1 1 5ED97240
 P 5350 3800
 F 0 "FIL15" V 5450 3900 50  0000 R CNN
 F 1 "390nH" V 5300 3900 50  0000 R CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5350 3800 50  0001 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 5350 3800 50  0001 C CNN
 F 3 "~" H 5350 3800 50  0001 C CNN
 	1    5350 3800
 	-1   0    0    1   
@@ -415,120 +349,138 @@ Wire Notes Line
 	3500 5450 3500 6450
 Wire Notes Line
 	3500 6450 5900 6450
-$Comp
-L HDTVii-rescue:Wire_Arc-My_Library W1
-U 1 1 5EF26D06
-P 4300 2850
-F 0 "W1" H 4250 2800 50  0001 C CNN
-F 1 "Wire_Arc" H 4300 2950 50  0001 C CNN
-F 2 "" H 4300 2950 50  0001 C CNN
-F 3 "" H 4300 2950 50  0001 C CNN
-	1    4300 2850
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 2850 5000 2850
-$Comp
-L HDTVii-rescue:Wire_Arc-My_Library W2
-U 1 1 5EF286A5
-P 5150 2850
-F 0 "W2" H 5100 2800 50  0001 C CNN
-F 1 "Wire_Arc" H 5150 2950 50  0001 C CNN
-F 2 "" H 5150 2950 50  0001 C CNN
-F 3 "" H 5150 2950 50  0001 C CNN
-	1    5150 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L HDTVii-rescue:Wire_Arc-My_Library W3
-U 1 1 5EF2A86A
-P 5150 3000
-F 0 "W3" H 5100 2950 50  0001 C CNN
-F 1 "Wire_Arc" H 5150 3100 50  0001 C CNN
-F 2 "" H 5150 3100 50  0001 C CNN
-F 3 "" H 5150 3100 50  0001 C CNN
-	1    5150 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 2850 5950 2850
-$Comp
-L HDTVii-rescue:Wire_Arc-My_Library W4
-U 1 1 5EF2BF41
-P 6100 2850
-F 0 "W4" H 6050 2800 50  0001 C CNN
-F 1 "Wire_Arc" H 6100 2950 50  0001 C CNN
-F 2 "" H 6100 2950 50  0001 C CNN
-F 3 "" H 6100 2950 50  0001 C CNN
-	1    6100 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L HDTVii-rescue:Wire_Arc-My_Library W5
-U 1 1 5EF2C5BC
-P 6100 3000
-F 0 "W5" H 6050 2950 50  0001 C CNN
-F 1 "Wire_Arc" H 6100 3100 50  0001 C CNN
-F 2 "" H 6100 3100 50  0001 C CNN
-F 3 "" H 6100 3100 50  0001 C CNN
-	1    6100 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L HDTVii-rescue:Wire_Arc-My_Library W6
-U 1 1 5EF2CAA8
-P 6100 3150
-F 0 "W6" H 6050 3100 50  0001 C CNN
-F 1 "Wire_Arc" H 6100 3250 50  0001 C CNN
-F 2 "" H 6100 3250 50  0001 C CNN
-F 3 "" H 6100 3250 50  0001 C CNN
-	1    6100 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L HDTVii-rescue:Wire_Arc-My_Library W7
-U 1 1 5EF2CEC3
-P 6650 4300
-F 0 "W7" H 6600 4250 50  0001 C CNN
-F 1 "Wire_Arc" H 6650 4400 50  0001 C CNN
-F 2 "" H 6650 4400 50  0001 C CNN
-F 3 "" H 6650 4400 50  0001 C CNN
-	1    6650 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L HDTVii-rescue:Wire_Arc-My_Library W8
-U 1 1 5EF2D52B
-P 6650 4450
-F 0 "W8" H 6600 4400 50  0001 C CNN
-F 1 "Wire_Arc" H 6650 4550 50  0001 C CNN
-F 2 "" H 6650 4550 50  0001 C CNN
-F 3 "" H 6650 4550 50  0001 C CNN
-	1    6650 4450
-	1    0    0    -1  
-$EndComp
 Text Notes 3550 6300 0    50   ~ 0
 RVL-CPU-30 and earlier boards utilised capacitors\ninstead of the V1-V3 varistors. \nKnowing the value of either is trivial\nfor completing a safe replacemement\nof the component video circuitry.
-Text GLabel 3650 4900 3    50   Input ~ 0
-YOut
-Text GLabel 4500 4900 3    50   Input ~ 0
-PbOut
-Text GLabel 5350 4900 3    50   Input ~ 0
-PrOut
-Text GLabel 6650 4900 3    50   Input ~ 0
-AVE59
-Text GLabel 7300 4900 3    50   Input ~ 0
-AVE57
-Text GLabel 7950 4900 3    50   Input ~ 0
-AVE54
 Wire Wire Line
 	3650 3950 3650 4350
-Wire Bus Line
-	4300 2750 4300 4450
-Wire Bus Line
-	5150 2750 5150 4450
-Wire Bus Line
-	6100 2750 6100 5250
 Connection ~ 3650 3950
 Connection ~ 3650 4350
+Wire Wire Line
+	5350 3150 6650 3150
+Wire Wire Line
+	3650 2850 7950 2850
+$Comp
+L Connector:TestPoint AVE59
+U 1 1 5F07282D
+P 6650 4900
+F 0 "AVE59" H 6592 4926 50  0000 R CNN
+F 1 "TestPoint" H 6592 5017 50  0000 R CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 6850 4900 50  0001 C CNN
+F 3 "~" H 6850 4900 50  0001 C CNN
+	1    6650 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint AVE57
+U 1 1 5F07337D
+P 7300 4900
+F 0 "AVE57" H 7242 4926 50  0000 R CNN
+F 1 "TestPoint" H 7242 5017 50  0000 R CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 7500 4900 50  0001 C CNN
+F 3 "~" H 7500 4900 50  0001 C CNN
+	1    7300 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint AVE54
+U 1 1 5F0737D1
+P 7950 4900
+F 0 "AVE54" H 7892 4926 50  0000 R CNN
+F 1 "TestPoint" H 7892 5017 50  0000 R CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 8150 4900 50  0001 C CNN
+F 3 "~" H 8150 4900 50  0001 C CNN
+	1    7950 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint PrOut1
+U 1 1 5F073B67
+P 5350 4900
+F 0 "PrOut1" H 5292 4926 50  0000 R CNN
+F 1 "TestPoint" H 5292 5017 50  0000 R CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 5550 4900 50  0001 C CNN
+F 3 "~" H 5550 4900 50  0001 C CNN
+	1    5350 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint PbOut1
+U 1 1 5F073E3F
+P 4500 4900
+F 0 "PbOut1" H 4442 4926 50  0000 R CNN
+F 1 "TestPoint" H 4442 5017 50  0000 R CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 4700 4900 50  0001 C CNN
+F 3 "~" H 4700 4900 50  0001 C CNN
+	1    4500 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint YOut1
+U 1 1 5F0741C2
+P 3650 4900
+F 0 "YOut1" H 3592 4926 50  0000 R CNN
+F 1 "TestPoint" H 3592 5017 50  0000 R CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3850 4900 50  0001 C CNN
+F 3 "~" H 3850 4900 50  0001 C CNN
+	1    3650 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 4350 6000 4350
+Wire Wire Line
+	4050 4350 4250 4350
+Wire Wire Line
+	4250 4350 4250 3300
+Wire Wire Line
+	3950 3300 4250 3300
+Wire Wire Line
+	4250 3300 4250 2700
+Wire Wire Line
+	4250 2700 5050 2700
+Wire Wire Line
+	6000 2700 6000 3300
+Connection ~ 4250 3300
+Connection ~ 6000 3300
+Wire Wire Line
+	6000 3300 6000 4150
+Wire Wire Line
+	6000 4150 6250 4150
+Connection ~ 6000 4150
+Wire Wire Line
+	6000 4150 6000 4300
+Wire Wire Line
+	6000 4350 6000 4450
+Wire Wire Line
+	6000 4450 7550 4450
+Connection ~ 6000 4350
+Wire Wire Line
+	6000 4300 6850 4300
+Connection ~ 6000 4300
+Wire Wire Line
+	6000 4300 6000 4350
+Connection ~ 6000 4450
+Wire Wire Line
+	6000 4450 6000 4950
+Wire Wire Line
+	5050 3300 5050 4350
+Wire Wire Line
+	4500 3000 7300 3000
+Wire Wire Line
+	5050 3300 5050 2700
+Connection ~ 5050 3300
+Connection ~ 5050 2700
+Wire Wire Line
+	5050 2700 6000 2700
+$Comp
+L Connector:TestPoint GND1
+U 1 1 5F08705D
+P 6000 4950
+F 0 "GND1" H 5942 4976 50  0000 R CNN
+F 1 "TestPoint" H 5942 5067 50  0000 R CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 6200 4950 50  0001 C CNN
+F 3 "~" H 6200 4950 50  0001 C CNN
+	1    6000 4950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6000 4950
 $EndSCHEMATC
