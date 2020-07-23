@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name SOD962-2)(type KiCad)(uri ${KIPRJMOD}/SOD962-2.pretty)(options "")(descr "DSN0603-2 (SOD962-2) "))
+  (lib (name Pad)(type KiCad)(uri ${KIPRJMOD}/pad.pretty)(options "")(descr "Solder Pad"))
+)
