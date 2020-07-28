@@ -472,10 +472,10 @@ Connection ~ 5050 2700
 Wire Wire Line
 	5050 2700 6000 2700
 $Comp
-L Connector:TestPoint GND
+L Connector:TestPoint GND1
 U 1 1 5F08705D
 P 6000 4950
-F 0 "GND" H 5942 4976 50  0000 R CNN
+F 0 "GND1" H 5942 4976 50  0000 R CNN
 F 1 "TestPoint" H 5942 5067 50  0000 R CNN
 F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 6200 4950 50  0001 C CNN
 F 3 "~" H 6200 4950 50  0001 C CNN
