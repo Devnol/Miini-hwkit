@@ -1,0 +1,10 @@
+M48
+;DRILL file {KiCad 5.0.2+dfsg1-1} date Fri 10 Jul 2020 02:10:24 PM CEST
+;FORMAT={-:-/ absolute / metric / decimal}
+FMAT,2
+METRIC,TZ
+%
+G90
+G05
+T0
+M30
