@@ -1090,7 +1090,7 @@
   (via (at 200.1 62.7) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 10) (tstamp 5F084AA3))
   (via (at 207.4 61) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 10) (tstamp 5F084AA3))
   (via (at 205.1 67.9) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 10) (tstamp 5F07805D))
-  (via (at 207.9 66.6) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 10) (tstamp 5F07805D))
+  (via (at 207.391 66.5988) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 10) (tstamp 5F07805D))
   (via (at 202.6 57.7) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 10) (tstamp 5F075AE3))
   (via (at 204.2 63.9) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 10) (tstamp 5F075E2A))
   (via (at 184.4 54.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 10))
