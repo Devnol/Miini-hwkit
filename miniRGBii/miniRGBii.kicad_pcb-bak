@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 33)
-    (tracks 94)
+    (tracks 95)
     (zones 0)
     (modules 28)
     (nets 12)
@@ -1014,6 +1014,7 @@
     (effects (font (size 1 1) (thickness 0.25)))
   )
 
+  (via (at 185 54.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 0) (tstamp 5F4BBD42))
   (segment (start 198.875 55.8) (end 198.875 57.6) (width 0.3) (layer F.Cu) (net 1))
   (segment (start 201.4 59.425) (end 201.4 59.45) (width 0.3) (layer F.Cu) (net 1))
   (segment (start 199.55 57.6) (end 201.4 59.45) (width 0.3) (layer F.Cu) (net 1))
@@ -1092,7 +1093,7 @@
   (segment (start 195.4 59) (end 195.4 58.2) (width 0.3) (layer F.Cu) (net 9))
   (segment (start 197.125 57.6) (end 197.125 55.8) (width 0.3) (layer F.Cu) (net 9))
   (via (at 199.8 62.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 10) (tstamp 5F084AA3))
-  (via (at 207.4 61) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 10) (tstamp 5F084AA3))
+  (via (at 205 60.5) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 10) (tstamp 5F084AA3))
   (via (at 205.1 67.9) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 10) (tstamp 5F07805D))
   (via (at 202.6 57.7) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 10) (tstamp 5F075AE3))
   (via (at 204.2 63.9) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 10) (tstamp 5F075E2A))
