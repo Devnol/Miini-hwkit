@@ -1,0 +1,5 @@
+#APFS Metadata files
+.DS_Store
+
+#KiCAD backup files
+*/*bak
