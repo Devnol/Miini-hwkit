@@ -2,4 +2,5 @@
 .DS_Store
 
 #KiCAD backup files
-*/*bak
+**/*-bak
+**/*.bak
