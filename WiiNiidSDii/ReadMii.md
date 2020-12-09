@@ -38,3 +38,6 @@ For any issues contact me through discord: akis_19#2545.
 10. Close your Wii mini without putting in the disc drive.
 
 11. You are done! Enjoy your new SD card slot. :)
+
+
+### FOR FURTHER SUPPORT JOIN THE WII MINI HACKING DISCORD SERVER
