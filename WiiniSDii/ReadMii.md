@@ -1,4 +1,4 @@
-# WiiNiidSDii
+# WiiniSDii
 Make the Wii mini SD card slot mod a little easier with 2 custom PCBs and a ribbon cable.
 Only little soldering is required. 
 
