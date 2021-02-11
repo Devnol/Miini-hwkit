@@ -6,7 +6,7 @@ To view the PCB designs open the json files with EasyEDA.
 
 Join the Wii mini Hacking discord server: https://discord.gg/uUkuwNc
 
-### Disclaimer:
+## Disclaimer:
 
 Project is still in very early beta and has not been tested. 
 No one is responsible if you decide to use the project's files and risk breaking your console.
