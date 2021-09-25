@@ -11,5 +11,3 @@
  ### miniRGBii-panel
  A pcb panel containing 12 miniRGBii boards in a 4x3 arrangement joined with mouse bites designed for mass production.
  
-### WiiniSDii
-Two boards designed to add the missing SD card slot present on the RVL-001/RVL-101 consoles.
