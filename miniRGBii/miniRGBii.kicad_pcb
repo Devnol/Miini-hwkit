@@ -7,6 +7,7 @@
   (paper "A4")
   (title_block
     (title "miniRGBii PCB Layout")
+    (rev "1.0")
     (company "Wii mini Hacking")
     (comment 1 "Devnol")
     (comment 2 "Job")
@@ -248,7 +249,7 @@
       (net 7 "Net-(C66-Pad1)") (pintype "passive") (tstamp 5114c7bf-b955-49f3-a0a8-4b954c81bde0))
     (pad "2" smd roundrect locked (at 0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 6 "PrOut") (pintype "passive") (tstamp 2dc272bd-3aa2-45b5-889d-1d3c8aac80f8))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -290,7 +291,7 @@
       (net 10 "GND") (pintype "passive") (tstamp 8a650ebf-3f78-4ca4-a26b-a5028693e36d))
     (pad "2" smd roundrect locked (at 0.875 0 270) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 7 "Net-(C66-Pad1)") (pintype "passive") (tstamp 7d928d56-093a-4ca8-aed1-414b7e703b45))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -332,7 +333,7 @@
       (net 9 "Net-(C64-Pad2)") (pintype "passive") (tstamp b96fe6ac-3535-4455-ab88-ed77f5e46d6e))
     (pad "2" smd roundrect locked (at 0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "PbOut") (pintype "passive") (tstamp 9f8381e9-3077-4453-a480-a01ad9c1a940))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -374,7 +375,7 @@
       (net 10 "GND") (pintype "passive") (tstamp 8c514922-ffe1-4e37-a260-e807409f2e0d))
     (pad "2" smd roundrect locked (at 0.875 0 270) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 9 "Net-(C64-Pad2)") (pintype "passive") (tstamp c25a772d-af9c-4ebc-96f6-0966738c13a8))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -416,7 +417,7 @@
       (net 8 "Net-(C83-Pad1)") (pintype "passive") (tstamp 8c6a821f-8e19-48f3-8f44-9b340f7689bc))
     (pad "2" smd roundrect locked (at 0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "YOut") (pintype "passive") (tstamp 45008225-f50f-4d6b-b508-6730a9408caf))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1118,11 +1119,14 @@
   (gr_text "miniRGBii" (at 207.01 55.88) (layer "B.SilkS") (tstamp c106154f-d948-43e5-abfa-e1b96055d91b)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "by Job#3556 &\nCommandblock6417" (at 212.4 60.4) (layer "B.SilkS") (tstamp c24d6ac8-802d-4df3-a210-9cb1f693e865)
+  (gr_text "by Job#3556 &\nDevnol#9366" (at 212.4 60.4) (layer "B.SilkS") (tstamp c24d6ac8-802d-4df3-a210-9cb1f693e865)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left mirror))
   )
-  (gr_text "consolebytes.com/minirgbii" (at 212.4 66.6) (layer "B.SilkS") (tstamp d39d813e-3e64-490c-ba5c-a64bb5ad6bd0)
+  (gr_text "discord.gg/7jNHphfDQk" (at 212.4 66.6) (layer "B.SilkS") (tstamp d39d813e-3e64-490c-ba5c-a64bb5ad6bd0)
     (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
+  )
+  (gr_text "Rev ${REVISION}" (at 186.69 67.31) (layer "B.SilkS") (tstamp d71757a2-0739-42ef-8e8e-ed1f7ccd14a3)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "M" (at 211.8 57.9) (layer "F.SilkS") (tstamp 065b9982-55f2-4822-977e-07e8a06e7b35)
     (effects (font (size 1 1) (thickness 0.25)))
