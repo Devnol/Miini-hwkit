@@ -11,3 +11,4 @@
  ### miniRGBii-panel
  A pcb panel containing 12 miniRGBii boards in a 4x3 arrangement joined with mouse bites designed for mass production.
  
+ For more information visit [the Wii mini Hacking discord server](https://discord.gg/7jNHphfDQk)
