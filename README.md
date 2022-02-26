@@ -8,7 +8,4 @@
  ### miniRGBii
  A board designed to add the missing component video filters present on the RVL-001/RVL-101 consoles.
  
- ### miniRGBii-panel
- A pcb panel containing 12 miniRGBii boards in a 4x3 arrangement joined with mouse bites designed for mass production.
- 
  For more information visit [the Wii mini Hacking discord server](https://discord.gg/7jNHphfDQk)
