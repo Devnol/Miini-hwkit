@@ -6,6 +6,7 @@
 
   (title_block
     (title "miniRGBii Schematic")
+    (rev "1.0")
     (company "Wii mini Hacking")
     (comment 1 "Devnol")
     (comment 2 "Job")

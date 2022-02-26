@@ -1,8 +1,0 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"J9,J1,J2,J3,J4,J6,J7,J8,J5";"pad";9;"Conn_01x01_Male";;;
-2;"D4,D1,D2,D3";"D_SOD-323_HandSoldering";4;"PESD5V0U1BA";;;
-3;"C64,C69,C84";"CP_EIA-7343-15_Kemet-W_Pad2.25x2.55mm_HandSolder";3;"220μF";;;
-4;"C85,C78,C72";"C_0603_1608Metric_Pad1.05x0.95mm_HandSolder";3;"100pF";;;
-5;"C83,C74,C66";"C_0603_1608Metric_Pad1.05x0.95mm_HandSolder";3;"50pF";;;
-6;"FIL17,FIL16,FIL15";"L_0603_1608Metric_Pad1.05x0.95mm_HandSolder";3;"390nH";;;
-7;"R37,R39,R40";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";3;"75Ω";;;
