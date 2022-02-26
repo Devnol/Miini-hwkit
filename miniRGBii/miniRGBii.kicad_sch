@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "miniRGBii Schematic")
+    (company "Wii mini Hacking")
+    (comment 1 "Devnol")
+    (comment 2 "Job")
+    (comment 3 "Created By:")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x01_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
@@ -709,10 +717,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 62c076a3-d618-44a2-9042-9a08b3576787)
   )
-  (text "Wii Component Video" (at 187.96 190.5 0)
-    (effects (font (size 2.0066 2.0066)) (justify left bottom))
-    (uuid 922058ca-d09a-45fd-8394-05f3e2c1e03a)
-  )
   (text "ESD" (at 173.99 26.67 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid da469d11-a8a4-414b-9449-d151eeaf4853)
@@ -1065,7 +1069,7 @@
     (uuid 00000000-0000-0000-0000-00005ed7acab)
     (property "Reference" "R37" (id 0) (at 135.89 44.45 0))
     (property "Value" "75Ω" (id 1) (at 135.89 46.99 0))
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (id 2) (at 133.858 45.72 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 133.858 45.72 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 132.08 45.72 0)
@@ -1080,7 +1084,7 @@
     (uuid 00000000-0000-0000-0000-00005ed7dc27)
     (property "Reference" "R39" (id 0) (at 135.89 76.2 0))
     (property "Value" "75Ω" (id 1) (at 135.89 78.74 0))
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (id 2) (at 130.302 77.47 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 130.302 77.47 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 132.08 77.47 0)
@@ -1095,7 +1099,7 @@
     (uuid 00000000-0000-0000-0000-00005ed7ee45)
     (property "Reference" "R40" (id 0) (at 135.89 106.68 0))
     (property "Value" "75Ω" (id 1) (at 135.89 109.22 0))
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (id 2) (at 130.302 107.95 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 130.302 107.95 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 132.08 107.95 0)
@@ -1401,7 +1405,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Male") (at 24.13 91.44 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f07713c)
-    (property "Reference" "J?" (id 0) (at 26.8224 89.2302 0)
+    (property "Reference" "J9" (id 0) (at 26.8224 89.2302 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Conn_01x01_Male" (id 1) (at 26.8224 89.2302 0)
@@ -1419,7 +1423,7 @@
   (symbol (lib_id "power:GND") (at 31.75 93.98 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f077e52)
-    (property "Reference" "#PWR?" (id 0) (at 31.75 100.33 0)
+    (property "Reference" "#PWR0111" (id 0) (at 31.75 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 31.877 98.3742 0))
@@ -1612,7 +1616,7 @@
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005f077e52"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ecd629c"
       (reference "C62") (unit 1) (value "50pF") (footprint "")
@@ -1696,16 +1700,16 @@
       (reference "J8") (unit 1) (value "Conn_01x01_Male") (footprint "Pad:pad")
     )
     (path "/00000000-0000-0000-0000-00005f07713c"
-      (reference "J?") (unit 1) (value "Conn_01x01_Male") (footprint "Pad:pad")
+      (reference "J9") (unit 1) (value "Conn_01x01_Male") (footprint "Pad:pad")
     )
     (path "/00000000-0000-0000-0000-00005ed7acab"
-      (reference "R37") (unit 1) (value "75Ω") (footprint "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "R37") (unit 1) (value "75Ω") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005ed7dc27"
-      (reference "R39") (unit 1) (value "75Ω") (footprint "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "R39") (unit 1) (value "75Ω") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005ed7ee45"
-      (reference "R40") (unit 1) (value "75Ω") (footprint "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "R40") (unit 1) (value "75Ω") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
   )
 )
